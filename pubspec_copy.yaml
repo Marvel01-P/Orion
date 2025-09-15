@@ -1,0 +1,26 @@
+name: orion_bot
+description: Orion Bot — MetaSearch deluxe (DuckDuckGo, Wikipedia, Bing, Reddit, StackOverflow)
+publish_to: 'none'
+version: 0.2.0
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  flutter_tts: ^3.6.3
+  speech_to_text: ^6.2.3
+  path_provider: ^2.0.15
+  permission_handler: ^10.4.0
+  url_launcher: ^6.1.12
+  animated_text_kit: ^4.2.2
+  google_fonts: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
